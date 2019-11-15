@@ -1,0 +1,70 @@
+body {padding: 0;
+    margin:0 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("memphis-mini.png");}
+
+nav.navbar {background-color:#f1f1f1;
+box-shadow: 0 4px 8px 0 rgba( 0, 0,0, 0.2);
+margin-bottom: 30px; }
+
+nav.navbar::after {content: "";
+    clear: both;
+    display: table;
+        }
+
+div.name {float:left;
+    background: rgb(100, 109, 190);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+    margin-left: 200px;
+    padding: 0 2px;}
+
+nav {display: block;}
+
+div {display: block;}
+
+ul {float:right;
+    list-style-type: none;}
+
+ul > li {padding: 20px;
+        display: inline-block;
+        margin-left: 20px;}
+
+ul > li a {text-decoration: none;
+        color: black;
+        ;}
+
+ul > li:not(:last-child) {border-right: 1px solid red;}
+
+div.wrapper {width:100%;
+        margin: 0 auto;}
+
+
+h2 {background-color: grey;
+    padding: 5px 2px;
+    color:whitesmoke;
+    float: left;
+    margin-left: 50px;
+    }
+
+img {width: 600px;
+    height: 500px;
+    padding: 20px 40px;
+    ;}
+
+p.bio > img {
+    display: inline-block;
+    color: whitesmoke;
+    background-color: royalblue;
+    margin-block-start: auto 0;
+    margin-block-end: auto 0;}
+
+p.bio {float:right;
+        margin-left: 20px;}
+
+
+footer {background-color:#f1f1f1;
+            width: 100%;
+            text-align: center;
+        color: grey;
+        float: left;
+        padding: 10px;}

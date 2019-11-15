@@ -1,0 +1,19 @@
+body {background-color: hotpink;}
+
+p {font-family: Arial, Helvetica, sans-serif;
+        font-size: 100px;}
+
+h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+        color:grey;
+        background-color: khaki;
+        padding: 100px;
+        margin: 100px;
+        text-align:center;
+        border-bottom:50px blue;
+
+        }
+
+ul > li {list-style-type: none;
+        display: inline-block
+        ;}
+
