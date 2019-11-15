@@ -46,19 +46,19 @@ h2 {background-color: grey;
     margin-left: 50px;
     }
 
-img {width: 600px;
+.image {width: 600px;
     height: 500px;
     padding: 20px 40px;
     ;}
 
-p.bio > img {
+.bio > .image {
     display: inline-block;
     color: whitesmoke;
     background-color: royalblue;
     margin-block-start: auto 0;
     margin-block-end: auto 0;}
 
-p.bio {float:right;
+.bio {float:right;
         margin-left: 20px;}
 
 
