@@ -1,7 +1,7 @@
 body {padding: 0;
     margin:0 ;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("/users/carotobar/desktop/coding/carotobar09.github.io/assets/images/memphis-mini.png");}
+    background-image: url("memphis-mini.png");}
 
 nav.navbar {background-color:#f1f1f1;
 box-shadow: 0 4px 8px 0 rgba( 0, 0,0, 0.2);
