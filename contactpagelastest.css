@@ -1,7 +1,7 @@
 body {padding: 0;
     margin:0 ;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("memphis-mini.png");}
+    background-image: url(memphis-mini.png);}
 
 nav.navbar {background-color:#f1f1f1;
 box-shadow: 0 4px 8px 0 rgba( 0, 0,0, 0.2);
@@ -38,35 +38,11 @@ ul > li:not(:last-child) {border-right: 1px solid red;}
 div.wrapper {width:100%;
         margin: 0 auto;}
 
-
-h2 {background-color: grey;
-    padding: 5px 2px;
-    color:whitesmoke;
-    float: left;
-    margin-left: 50px;
+div.section {width:960px;
+    margin-top:20px;
+    padding: 50px;
     }
 
-.image {width: 600px;
-    height: 500px;
-    padding: 20px 40px;
-    
-    ;}
-
-.bio > .image {
-    display: inline-block;
-    color: whitesmoke;
-    background-color: royalblue;
-    margin-block-start: auto 0;
-    margin-block-end: auto 0;}
-
-.bio {float:right;
-        margin-left: 20px;
-    display: inline-block;}
-
-
-footer {background-color:#f1f1f1;
-            width: 100%;
-            text-align: center;
-        color: grey;
-        float: left;
-        padding: 10px;}
+h2 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:grey;
+    text-align: left;}
